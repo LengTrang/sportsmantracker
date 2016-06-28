@@ -54,7 +54,7 @@ class ViewController: UIViewController {
     @IBAction func userCenter(sender: AnyObject) {
         print("Center")
 
-        self.mapView.setCenterCoordinate((self.mapView.userLocation?.coordinate)!, animated: true)
+        self.mapView.setCenterCoordinate((self.mapView.userLocation?.coordinate)!, zoomLevel: 15 , animated: true)
         print("*** \(self.mapView.userLocation?.coordinate)")
     }
     
