@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C12C28271D21FAA5007DC096 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C28261D21FAA5007DC096 /* Location.swift */; };
+		C12C28291D220C90007DC096 /* location.json in Resources */ = {isa = PBXBuildFile; fileRef = C12C28281D220C90007DC096 /* location.json */; };
 		C15A95141D20611200279473 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15A95131D20611200279473 /* AppDelegate.swift */; };
 		C15A95161D20611200279473 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15A95151D20611200279473 /* ViewController.swift */; };
 		C15A95191D20611200279473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15A95171D20611200279473 /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C12C28261D21FAA5007DC096 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C12C28281D220C90007DC096 /* location.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = location.json; sourceTree = "<group>"; };
 		C15A95101D20611200279473 /* SportsmanTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsmanTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15A95131D20611200279473 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C15A95151D20611200279473 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,12 +77,14 @@
 		C15A95121D20611200279473 /* SportsmanTracker */ = {
 			isa = PBXGroup;
 			children = (
+				C12C28281D220C90007DC096 /* location.json */,
 				C15A95131D20611200279473 /* AppDelegate.swift */,
 				C15A95151D20611200279473 /* ViewController.swift */,
 				C15A95171D20611200279473 /* Main.storyboard */,
 				C15A951A1D20611200279473 /* Assets.xcassets */,
 				C15A951C1D20611200279473 /* LaunchScreen.storyboard */,
 				C15A951F1D20611200279473 /* Info.plist */,
+				C12C28261D21FAA5007DC096 /* Location.swift */,
 			);
 			path = SportsmanTracker;
 			sourceTree = "<group>";
@@ -144,6 +150,7 @@
 			files = (
 				C15A951E1D20611200279473 /* LaunchScreen.storyboard in Resources */,
 				C15A951B1D20611200279473 /* Assets.xcassets in Resources */,
+				C12C28291D220C90007DC096 /* location.json in Resources */,
 				C15A95191D20611200279473 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C15A95161D20611200279473 /* ViewController.swift in Sources */,
+				C12C28271D21FAA5007DC096 /* Location.swift in Sources */,
 				C15A95141D20611200279473 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +322,7 @@
 				C15A95241D20611200279473 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
