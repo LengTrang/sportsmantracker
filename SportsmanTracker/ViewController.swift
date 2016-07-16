@@ -35,7 +35,24 @@ class ViewController: UIViewController {
         point.subtitle = "22 SW 3rd Avenue Portland Oregon, U.S.A."
         
         mapView.addAnnotation(point)
+        
+        let path: String = NSBundle.mainBundle().pathForResource("locations", ofType: "json")!
+        let data : NSData = try! NSData(contentsOfFile: path as String, options: NSDataReadingOptions.DataReadingMapped)
+
+        let dict: NSDictionary!=(try! NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers)) as! NSDictionary
+        
+        let test : NSMutableArray = NSMutableArray()
+        for  i in 0  ..< (dict.valueForKey("location") as! NSArray).count
+        {
+            test.addObject((dict.valueForKey("locaton") as! NSArray) .objectAtIndex(i))
+            
+            print("Test: \(test)")
+            //arrDict.addObject((dict.valueForKey("MONDAY") as! NSArray) .objectAtIndex(i))
+        }
+
     }
+    
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
