@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C12C28271D21FAA5007DC096 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12C28261D21FAA5007DC096 /* Location.swift */; };
-		C12C28291D220C90007DC096 /* location.json in Resources */ = {isa = PBXBuildFile; fileRef = C12C28281D220C90007DC096 /* location.json */; };
+		C12C282B1D233187007DC096 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = C12C282A1D233187007DC096 /* locations.json */; };
 		C15A95141D20611200279473 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15A95131D20611200279473 /* AppDelegate.swift */; };
 		C15A95161D20611200279473 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15A95151D20611200279473 /* ViewController.swift */; };
 		C15A95191D20611200279473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15A95171D20611200279473 /* Main.storyboard */; };
@@ -34,7 +34,7 @@
 
 /* Begin PBXFileReference section */
 		C12C28261D21FAA5007DC096 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		C12C28281D220C90007DC096 /* location.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = location.json; sourceTree = "<group>"; };
+		C12C282A1D233187007DC096 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		C15A95101D20611200279473 /* SportsmanTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsmanTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15A95131D20611200279473 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C15A95151D20611200279473 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 		C15A95121D20611200279473 /* SportsmanTracker */ = {
 			isa = PBXGroup;
 			children = (
-				C12C28281D220C90007DC096 /* location.json */,
+				C12C282A1D233187007DC096 /* locations.json */,
 				C15A95131D20611200279473 /* AppDelegate.swift */,
 				C15A95151D20611200279473 /* ViewController.swift */,
 				C15A95171D20611200279473 /* Main.storyboard */,
@@ -150,7 +150,7 @@
 			files = (
 				C15A951E1D20611200279473 /* LaunchScreen.storyboard in Resources */,
 				C15A951B1D20611200279473 /* Assets.xcassets in Resources */,
-				C12C28291D220C90007DC096 /* location.json in Resources */,
+				C12C282B1D233187007DC096 /* locations.json in Resources */,
 				C15A95191D20611200279473 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
